@@ -3,6 +3,9 @@
 .home {
 
   .intro {
+    .mainpic img {
+      border-radius:8px;
+  }
 
     h2 {
       padding: 15px;
@@ -58,6 +61,10 @@
       }
 
       .btn {
+        .btnlayout (@wild-sand,@btn-bg-color, 18px)
+      }
+      .btn:hover {
+        .btnlayout (@btn-bg-color, @wild-sand, 18px)
       }
     }
 

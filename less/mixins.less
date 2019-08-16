@@ -1,1 +1,23 @@
 // Mixins Here
+.linkclear(){
+    text-decoration: none;
+    color: @river-bend;
+}
+.columnflex(){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+//paremetric mixin
+.btnlayout (@color, @background, @size){
+    color: @color;
+    background-color: @background;
+    font-size: @size;
+    display: block;
+    padding: 3%;
+    border-radius: 8px;
+    text-align: center;
+    width: 35%;
+
+}
