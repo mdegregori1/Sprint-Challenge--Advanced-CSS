@@ -1,1 +1,30 @@
 // Navigation code here
+.navbar {
+    .columnflex();
+    width: 100%;
+    margin: auto;
+    padding-top: 1.5%;
+    border: 2px solid @nav-border;
+    padding-bottom: 10px;
+    background: @wild-sand;
+    @media @phone {
+        width: 500px;
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+    }
+  
+    .logo {
+        font-size: 36px;
+    }
+    .navlinks {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-top: 2%;
+        a {
+            .linkclear();
+            padding-right: 10px;
+    
+        }
+    }
+
+}
